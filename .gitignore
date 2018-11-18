@@ -1,2 +1,4 @@
-.idea
-.img_Avacode
+
+node_modules/
+.idea/
+package-lock.json
