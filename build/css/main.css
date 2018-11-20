@@ -1,5 +1,5 @@
 body {
-  font-family: 'Asap', sans-serif;
+  font-family: Asap, sans-serif;
   font-weight: 400; }
 
 a {
@@ -7,7 +7,7 @@ a {
 
 .wrapper {
   max-width: 1170px;
-  padding: 0 15px;
+  padding: 0 0;
   overflow: hidden;
   margin: 0 auto;
   box-sizing: border-box; }
@@ -15,22 +15,79 @@ a {
 .content-center {
   text-align: center; }
 
-.arrow {
-  font-size: 35px;
-  color: #fff; }
+.block {
+  display: block; }
+
+.block-inline {
+  display: inline-block; }
 
 .flex {
   display: flex; }
 
-.flex-centered {
+.flex-between {
   display: flex;
+  align-items: center;
+  justify-content: space-between; }
+
+.flex-centered {
   align-items: center;
   justify-content: center; }
 
-.flex-between {
-  display: flex;
-  justify-content: space-between;
-  align-items: center; }
-
 .flex-wrap {
   flex-wrap: wrap; }
+
+.button-text {
+  color: #4d4d4d;
+  font-family: Asap, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: uppercase; }
+
+.top__nav-link {
+  padding-left: 40px;
+  font-size: 16px; }
+
+.top__background {
+  background-image: url("../img/top_bg.png"); }
+
+.top__background-face {
+  background-image: url("../img/top_bg_face.png");
+  background-repeat: no-repeat;
+  background-position: top 15px left 168px; }
+
+.top__nav-logo-title,
+.top__nav-logo-text {
+  font-family: Lato, sans-serif; }
+
+.top__nav-logo-title {
+  padding-top: 10px;
+  padding-bottom: 5px;
+  font-size: 14px; }
+
+.top__nav-logo-text {
+  font-size: 4px; }
+
+.top__connection-title,
+.top__connection-text {
+  color: #4d4d4d;
+  font-family: Asap, sans-serif;
+  font-weight: 500; }
+
+.top__connection-title {
+  padding: 175px 0 2px 2px;
+  font-size: 90px; }
+
+.top__connection-text {
+  font-size: 22px;
+  padding-left: 1px; }
+
+.top__connection-buttons {
+  padding: 28px 0 299px 1px; }
+
+.top__connection-button-1 {
+  max-width: 160px;
+  padding: 20px 29px 18px 30px; }
+
+.top__connection-button-2 {
+  max-width: 160px;
+  padding: 20px 46px 18px 48px; }
