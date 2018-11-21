@@ -2,7 +2,10 @@ body {
   font-family: Asap, sans-serif;
   font-weight: 400; }
 
-a {
+.top__logo--link,
+.top__nav-link,
+.service__link,
+.fun-fact__link {
   text-decoration: none; }
 
 .wrapper {
@@ -11,6 +14,68 @@ a {
   overflow: hidden;
   margin: 0 auto;
   box-sizing: border-box; }
+
+.background-first {
+  background-color: #fff; }
+
+.background-second,
+.section-title:before {
+  background-color: #f6f6f6; }
+
+.top__logo-text {
+  font-size: 4px; }
+
+.top__logo-title,
+.top__nav--link {
+  font-size: 12px; }
+
+.button-text,
+.about__text,
+.testimonials__text {
+  font-size: 16px; }
+
+.top__connection-text,
+.service__text,
+.fun-fact__text {
+  font-size: 22px; }
+
+.fun-fact__amt {
+  font-size: 30px; }
+
+.section-title {
+  font-size: 46px; }
+
+.top__connection-title,
+.section-title,
+.about__text,
+.button-text,
+.service__text,
+.fun-fact__title-img,
+.fun-fact__amt,
+.fun-fact__text {
+  color: #4d4d4d; }
+
+.top__logo-title {
+  font-weight: 300; }
+
+.top__logo-text,
+.top__nav--link,
+.about__text {
+  font-weight: 400; }
+
+.top__connection-title,
+.top__connection-text,
+.button-text,
+.fun-fact__amt,
+.service__text {
+  font-weight: 500; }
+
+.section-title {
+  font-weight: 700; }
+
+.service__title-img,
+.fun-fact__title-img {
+  opacity: 0.8; }
 
 .content-center {
   text-align: center; }
@@ -36,42 +101,41 @@ a {
 .flex-wrap {
   flex-wrap: wrap; }
 
+.section-title {
+  position: relative;
+  font-family: Asap, sans-serif; }
+
+.section-title:before {
+  content: '';
+  position: absolute;
+  width: 60px;
+  height: 4px;
+  opacity: 0.6; }
+
 .button-text {
-  color: #4d4d4d;
   font-family: Asap, sans-serif;
-  font-size: 16px;
-  font-weight: 500;
   text-transform: uppercase; }
 
-.top__nav-link {
-  padding-left: 40px;
-  font-size: 16px; }
+.top__nav--link {
+  padding-left: 40px; }
 
 .top__background {
   background-image: url("../img/top_bg.png"); }
 
 .top__background-face {
-  background-image: url("../img/top_bg_face.png");
-  background-repeat: no-repeat;
-  background-position: top 15px left 168px; }
+  background: url("../img/top_bg_face.png") top 15px left 168px no-repeat; }
 
-.top__nav-logo-title,
-.top__nav-logo-text {
+.top__logo-title,
+.top__logo-text {
   font-family: Lato, sans-serif; }
 
-.top__nav-logo-title {
+.top__logo-title {
   padding-top: 10px;
-  padding-bottom: 5px;
-  font-size: 14px; }
-
-.top__nav-logo-text {
-  font-size: 4px; }
+  padding-bottom: 5px; }
 
 .top__connection-title,
 .top__connection-text {
-  color: #4d4d4d;
-  font-family: Asap, sans-serif;
-  font-weight: 500; }
+  font-family: Asap, sans-serif; }
 
 .top__connection-title {
   padding: 175px 0 2px 2px;

@@ -1,11 +1,12 @@
 @import "variables"
 
 body 
-  font-family: $Asap-font-family
+  font-family: $font-family-asap
   font-weight: $font-weight-400
-
-
-a 
+.top__logo--link,
+.top__nav-link,
+.service__link,
+.fun-fact__link
   text-decoration: none
 
 .wrapper 
@@ -15,6 +16,68 @@ a
   margin: 0 auto
   box-sizing: border-box
 
+.background-first
+  background-color: $color-background-first
+
+.background-second,
+.section-title:before
+  background-color: $color-background-second
+
+.top__logo-text
+  font-size: $font-size-micro
+
+.top__logo-title,
+.top__nav--link
+  font-size: $font-size-mini
+
+.button-text,
+.about__text,
+.testimonials__text
+  font-size: $font-size-normal
+
+.top__connection-text,
+.service__text,
+.fun-fact__text
+  font-size: $font-size-big
+
+.fun-fact__amt
+  font-size: $font-size-number
+
+.section-title
+  font-size: $font-size-title
+
+.top__connection-title,
+.section-title,
+.about__text,
+.button-text,
+.service__text,
+.fun-fact__title-img,
+.fun-fact__amt,
+.fun-fact__text
+  color: $color-text-first
+
+.top__logo-title
+  font-weight: $font-weight-300
+
+.top__logo-text,
+.top__nav--link,
+.about__text
+  font-weight: $font-weight-400
+
+
+.top__connection-title,
+.top__connection-text,
+.button-text,
+.fun-fact__amt,
+.service__text
+  font-weight: $font-weight-500
+
+.section-title
+  font-weight: $font-weight-700
+
+.service__title-img,
+.fun-fact__title-img
+  opacity: 0.8
 
 .content-center 
   text-align: center
@@ -40,43 +103,51 @@ a
 .flex-wrap 
   flex-wrap: wrap
 
+.section-title
+  position: relative
+  font-family: $font-family-asap
+
+.section-title:before
+  content: ''
+  position: absolute
+  width: 60px
+  height: 4px
+  opacity: 0.6
+
+
+
+
+
+
+
+
 .button-text
-  color: #4d4d4d;
-  font-family: $Asap-font-family
-  font-size: 16px;
-  font-weight: $font-weight-500
+  font-family: $font-family-asap
   text-transform: uppercase
 
-.top__nav-link
+.top__nav--link
   padding-left: 40px
-  font-size: $normal-font-size
 
 .top__background
   background-image: url("../img/top_bg.png")
 
 .top__background-face
-  background-image: url("../img/top_bg_face.png")
-  background-repeat: no-repeat
-  background-position: top 15px left 168px
+  background: url("../img/top_bg_face.png") top 15px left 168px no-repeat
 
 
-.top__nav-logo-title,
-.top__nav-logo-text
-  font-family: $lato-font-family
+.top__logo-title,
+.top__logo-text
+  font-family: $font-family-lato
 
-.top__nav-logo-title
+.top__logo-title
   padding-top: 10px
   padding-bottom: 5px
-  font-size: 14px
 
-.top__nav-logo-text
-  font-size: 4px
+
 
 .top__connection-title,
 .top__connection-text
-  color: #4d4d4d
-  font-family: $Asap-font-family
-  font-weight: $font-weight-500
+  font-family: $font-family-asap
 
 .top__connection-title
   padding: 175px 0 2px 2px
