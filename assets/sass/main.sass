@@ -3,11 +3,14 @@
 body 
   font-family: $font-family-asap
   font-weight: $font-weight-400
-.top__logo--link,
-.top__nav-link,
-.service__link,
-.fun-fact__link
+  color: $color-text-first
+a
   text-decoration: none
+  color: inherit
+
+button,
+.form__button
+  background-color: #fff
 
 .wrapper 
   max-width: 1170px
@@ -16,70 +19,8 @@ body
   margin: 0 auto
   box-sizing: border-box
 
-.background-first
-  background-color: $color-background-first
 
-.background-second,
-.section-title:before
-  background-color: $color-background-second
-
-.top__logo-text
-  font-size: $font-size-micro
-
-.top__logo-title,
-.top__nav--link
-  font-size: $font-size-mini
-
-.button-text,
-.about__text,
-.testimonials__text
-  font-size: $font-size-normal
-
-.top__connection-text,
-.service__text,
-.fun-fact__text
-  font-size: $font-size-big
-
-.fun-fact__amt
-  font-size: $font-size-number
-
-.section-title
-  font-size: $font-size-title
-
-.top__connection-title,
-.section-title,
-.about__text,
-.button-text,
-.service__text,
-.fun-fact__title-img,
-.fun-fact__amt,
-.fun-fact__text
-  color: $color-text-first
-
-.top__logo-title
-  font-weight: $font-weight-300
-
-.top__logo-text,
-.top__nav--link,
-.about__text
-  font-weight: $font-weight-400
-
-
-.top__connection-title,
-.top__connection-text,
-.button-text,
-.fun-fact__amt,
-.service__text
-  font-weight: $font-weight-500
-
-.section-title
-  font-weight: $font-weight-700
-
-.service__title-img,
-.fun-fact__title-img
-  opacity: 0.8
-
-.content-center 
+.content-center
   text-align: center
 
 .block
@@ -88,7 +29,7 @@ body
 .block-inline
   display: inline-block
 
-.flex 
+.flex
   display: flex
 
 .flex-between
@@ -100,7 +41,7 @@ body
   align-items: center
   justify-content: center
 
-.flex-wrap 
+.flex-wrap
   flex-wrap: wrap
 
 .section-title
@@ -113,19 +54,50 @@ body
   width: 60px
   height: 4px
   opacity: 0.6
-
-
-
-
-
-
-
-
+  background-color: $color-background-second
 .button-text
   font-family: $font-family-asap
   text-transform: uppercase
+  font-weight: $font-weight-700
+  color: $color-text-first
+  font-size: $font-size-normal
 
-.top__nav--link
+.background-first
+  background-color: $color-background-first
+
+.background-second
+  background-color: $color-background-second
+
+
+.testimonials__text
+  font-size: $font-size-normal
+
+.big-text
+  font-size: $font-size-big
+
+.fun-fact__amt
+  font-size: $font-size-number
+
+.section-title
+  font-size: $font-size-title
+
+.top__nav--link,
+  font-weight: $font-weight-400
+
+
+.button-text,
+.fun-fact__amt,
+.service__text
+  font-weight: $font-weight-500
+
+.section-title
+  font-weight: $font-weight-700
+
+.service__title-img,
+.fun-fact__title-img
+  opacity: 0.8
+
+.top__nav-link
   padding-left: 40px
 
 .top__background
@@ -135,27 +107,33 @@ body
   background: url("../img/top_bg_face.png") top 15px left 168px no-repeat
 
 
-.top__logo-title,
 .top__logo-text
   font-family: $font-family-lato
+  font-size: $font-size-micro
+  font-weight: $font-weight-400
+
 
 .top__logo-title
   padding-top: 10px
   padding-bottom: 5px
+  font-family: $font-family-lato
+  font-weight: $font-weight-300
+  font-size: $font-size-mini
 
-
-
-.top__connection-title,
-.top__connection-text
-  font-family: $font-family-asap
+.top__nav--link
+  font-size: $font-size-mini
 
 .top__connection-title
   padding: 175px 0 2px 2px
   font-size: 90px
+  font-weight: $font-weight-500
+  font-family: $font-family-asap
 
 .top__connection-text
   font-size: 22px
   padding-left: 1px
+  font-family: $font-family-asap
+  font-weight: $font-weight-500
 
 .top__connection-buttons
   padding: 28px 0 299px 1px
@@ -165,8 +143,26 @@ body
   max-width: 160px
   padding: 20px 29px 18px 30px
 
+
 .top__connection-button-2
   max-width: 160px
   padding: 20px 46px 18px 48px
+  background: none
+  border: 1px solid $color-text-first
 
+.about__block
 
+  padding: 109px 0 124px 0
+
+.about__content
+  padding: 92px 128px 12px 0
+  box-sizing: border-box
+
+.about__title
+  padding: 92px 158px 0 12px
+
+.about__text
+  font-weight: $font-weight-400
+  font-size: $font-size-normal
+
+.about__button
